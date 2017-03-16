@@ -3,7 +3,7 @@
 function onRun(context) {
   initEnv(context)
   loopSelectedLayers(function(layerRect) {
-    addGroup("Role Of Thirds", function(group){
+    addGroup("Rule Of Thirds", function(group){
       makeGrid(group, layerRect, 1/3)
     })
   })
